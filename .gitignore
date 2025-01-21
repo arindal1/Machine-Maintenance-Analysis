@@ -23,7 +23,6 @@ env/
 Thumbs.db
 
 # Jupyter config files
-*.json
 *.sqlite
 
 # Other environment-related files

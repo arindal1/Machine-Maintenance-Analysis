@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "ad23905a-9df8-4446-800c-89867df5b31e",
+		"name": "MAC-DOWNTIME",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37516508"
+	},
+	"item": [
+		{
+			"name": "UPLOAD",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/E:/Source Codes/AIML/Machine Maintanance/data/predictive_maintenance.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/upload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TRAIN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/train",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"train"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PREDICT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Type\": \"M\",\r\n  \"Air temperature [K]\": 298.1,\r\n  \"Process temperature [K]\": 309.1,\r\n  \"Rotational speed [rpm]\": 2861,\r\n  \"Torque [Nm]\": 4.8,\r\n  \"Tool wear [min]\": 143\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/predict",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

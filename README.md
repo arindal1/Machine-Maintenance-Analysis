@@ -21,7 +21,7 @@ This API is built using **Flask** for the backend and uses **scikit-learn** for 
 - **Flask Code** (with API): [app.py](app.py) <br>
 - **Dataset**: [predictive_maintenance.csv](data/predictive_maintenance.csv) <br>
 - **Model** (pickle): [downtime_model.pkl](model/downtime_model.pkl) <br>
-
+- **Postman Collection**: [MAC-DOWNTIME.postman_collection.json](MAC-DOWNTIME.postman_collection.json)
 ## Features
 
 - **Upload** endpoint: Upload manufacturing data for training.
