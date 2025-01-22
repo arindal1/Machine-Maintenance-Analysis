@@ -205,7 +205,8 @@ model.fit(X_train, y_train)
 
 
 
-<style>#sk-container-id-2 {
+<style>
+    #sk-container-id-2 {
   /* Definition of color scheme common for light and dark mode */
   --sklearn-color-text: black;
   --sklearn-color-line: gray;
@@ -609,7 +610,31 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
   /* fitted */
   background-color: var(--sklearn-color-fitted-level-3);
 }
-</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LogisticRegression(class_weight=&#x27;balanced&#x27;, max_iter=1000, random_state=42)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" checked><label for="sk-estimator-id-2" class="sk-toggleable__label fitted sk-toggleable__label-arrow fitted">&nbsp;&nbsp;LogisticRegression<a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.4/modules/generated/sklearn.linear_model.LogisticRegression.html">?<span>Documentation for LogisticRegression</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></label><div class="sk-toggleable__content fitted"><pre>LogisticRegression(class_weight=&#x27;balanced&#x27;, max_iter=1000, random_state=42)</pre></div> </div></div></div></div>
+</style>
+
+<div id="sk-container-id-2" class="sk-top-container">
+    <div class="sk-text-repr-fallback">
+        <pre>LogisticRegression(class_weight=&#x27;balanced&#x27;, max_iter=1000, random_state=42)</pre>
+        <b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />
+            On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b>
+    </div>
+    <div class="sk-container" hidden>
+        <div class="sk-item">
+            <div class="sk-estimator fitted sk-toggleable">
+                <input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" checked>
+                <label for="sk-estimator-id-2" class="sk-toggleable__label fitted sk-toggleable__label-arrow fitted">&nbsp;&nbsp;LogisticRegression
+                    <a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.4/modules/generated/sklearn.linear_model.LogisticRegression.html">?<span>Documentation for LogisticRegression</span>
+                    </a>
+                    <span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span>
+                </label>
+                <div class="sk-toggleable__content fitted">
+                    <pre>LogisticRegression(class_weight=&#x27;balanced&#x27;, max_iter=1000, random_state=420)
+                    </pre>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
